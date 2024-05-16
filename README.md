@@ -39,7 +39,7 @@ pom.xml : This XML file contains all the dependency what we are going to use thr
 
 Join our community to stay updated and interact with other users and contributors:
 
-https://github.com/NBikash/IVRM_Staging_Framework.git
+https://github.com/NBikash/VMS_Staging_Framework.git
 
 ## Contact
 
