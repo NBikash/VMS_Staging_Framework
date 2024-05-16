@@ -43,14 +43,14 @@ pom.xml : This XML file contains all the dependency what we are going to use thr
 
 Join our community to stay updated and interact with other users and contributors:
 
-https://github.com/NBikash/VMS_Staging_Framework.git
+-https://github.com/NBikash/VMS_Staging_Framework.git
 
 ## Contact
 
 If you have any questions, feedback, or suggestions, feel free to reach out to us:
 
-nbikash9583@gmail.com
+-nbikash9583@gmail.com
 
-live:.cid.8ea8518c271ebbae (Skype)
+-live:.cid.8ea8518c271ebbae (Skype)
 
 We look forward to your contributions and feedback!
