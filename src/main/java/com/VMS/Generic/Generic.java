@@ -267,9 +267,15 @@ public class Generic extends Baseclass {
 			e.printStackTrace();
 			      
 		    } 
-		
-		
 	}
+		
+    /**
+     * This is the Generic customized method designed to handle synchronization issue based on iteration
+     * @param j  i.e. iteration count
+     * @param element  
+     */
+		
+
 	public void CustomWait(int j,WebElement element) {
 		int i=1;
 		while(i<=j) {
@@ -283,6 +289,11 @@ public class Generic extends Baseclass {
 		}
 		}
 	}
+	
+	/**
+	 * This is the Generic method designed to take screenshot 
+	 * @return path name where screenshot stored
+	 */
 	public String failscreenshot() {
 		TakesScreenshot t=(TakesScreenshot)driver;
 		File src = t.getScreenshotAs(OutputType.FILE);
