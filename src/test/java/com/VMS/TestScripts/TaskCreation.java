@@ -62,15 +62,15 @@ public class TaskCreation extends Baseclass {
             test.fail("Test Failed"+e.getMessage()); 
            String p= g.failscreenshot();
             test.log(Status.WARNING,"Failed Test case Screenshot",MediaEntityBuilder.createScreenCaptureFromPath(p).build());
-           // driver.close();
+       
            
         }
 		catch(Exception e) {
 			e.printStackTrace();			
-			test.fail("Test failed"+e.getMessage());
-			 String p= g.failscreenshot();
+			test.fail("Test failed due to ------>"+e.getMessage());
+			 String p= g.failscreenshot();			 
 	            test.log(Status.WARNING,"Failed Test case Screenshot",MediaEntityBuilder.createScreenCaptureFromPath(p).build());
-	          //  driver.close();
+	       
 		}
 	
 	
